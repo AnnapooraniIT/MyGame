@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="sc">SCORE</string>
+    <string name="pg">PLAY   GAME</string>
+    <string name="sl">SLOW</string>
+    <string name="mm">MEDIUM</string>
+    <string name="ft">FAST</string>
+    <string name="qs">  &quot;  ?  &quot;</string>
+    <string name="cnt">CONTINUE</string>
+    <string name="et">ANSWER</string>
+    <string name="cao"> Click Anyone Speed</string><string name="app_name">WELCOME  TO SCE CLLG</string><string name="pgb">Click PlayGame Button</string><string name="score">score</string><string name="fii">Find Identical Image?</string><string name="smt">SUBMIT</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+</resources>

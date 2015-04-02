@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ToggleButton
+        android:id="@+id/button1"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+         android:textOn="@string/pg"
+          android:textOff="@string/pg"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="199dp"
+        android:orientation="horizontal"
+        />
+
+    <ToggleButton
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button1"
+        android:textOn="@string/ft"
+         android:textOff="@string/ft"
+        android:layout_marginBottom="93dp"
+        android:layout_toRightOf="@+id/button1"
+         />
+
+    <ToggleButton
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button4"
+        android:layout_alignBottom="@+id/button4"
+        android:layout_centerHorizontal="true"
+        android:textOn="@string/mm" 
+         android:textOff="@string/mm"/>
+
+    <ToggleButton
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button3"
+        android:layout_alignBottom="@+id/button3"
+        android:layout_toLeftOf="@+id/button1"
+        android:textOn="@string/sl" 
+        android:textOff="@string/sl" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button2"
+         android:text="@string/cao"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="26dp"
+       
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="25dp"
+        android:layout_above="@+id/button1"
+        android:layout_alignLeft="@+id/button2"
+         android:text="@string/pgb"
+        android:layout_marginBottom="33dp"
+       
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>
